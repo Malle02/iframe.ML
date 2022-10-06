@@ -1,0 +1,30 @@
+body
+{
+    background-color: grey;
+}
+h1,h2
+{
+    color:rgb(24, 3, 6);
+    font-family: Verdana;
+    font-size: 1em;
+}
+div
+{
+    background-color: aquamarine;
+    border: 2px solid rgba(255, 140, 0, 0.679);
+    border-radius: 9px;
+    padding: 2%;
+    text-align: justify;
+    
+}
+p{
+    color:skyblue;
+    font-family: arial;
+
+}
+.d1{
+    background-color: aquamarine;
+}
+.d2{
+    background-color: blanchedalmond;
+}
