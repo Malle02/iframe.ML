@@ -29,8 +29,9 @@
 .bloc{
     margin: 10px;
     border: white 1px solid;
-    width: 4000px;
+    width: 3700px;
     height: 360px;
+    margin: 10px;
 
     
 }
@@ -44,7 +45,6 @@
 
     
 }
-
 .M{
     border: white 1px solid;
     margin: 0px;
@@ -59,6 +59,7 @@
     text-align: center;
     
 }
+
 
 
 .d1{

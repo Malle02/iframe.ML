@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    text-align: center;}
+h1{
+    
+    font-family: verdana;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: darkorange;
+    text-shadow: 4px 4px 2px red;
+}
+label{
+    color: yellow;
+}
+button{
+    background-color: yellow;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px 32px;
+    margin-top: 3px;
+}
+button:hover
+{
+    color: darkblue;
+    background-color: black;
+    border: 2px solid blue;
+}
