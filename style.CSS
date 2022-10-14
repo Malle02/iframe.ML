@@ -63,5 +63,34 @@ div{
     /* pour center l'element voulue au millieux */
 }
 
- 
+.d{
+    width: 250px;
+    height:8% ;;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(242, 255, 0);
+    border-radius: 26px;
+    padding: 15px 32px;
+    float: left;
+    margin-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 1em; 
+    font-size: 1.2em;
+    animation: apparition 2s ease-out;
+}
+.d:hover {
+    color: pink;
+    background-color: black;
+    border: 2px solid blue;
+}
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 /* main pour mettre une coueleur a un endrois precis, il doit egalement sur la pager html */

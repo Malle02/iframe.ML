@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&display=swap');
+
 body{
  background-size: cover;
  background-color:orange ;
@@ -17,16 +18,30 @@ button{
     border-radius: 26px;
     padding: 15px 32px;
     margin-top: 15px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Alkalami', serif;
+    font-family: 'Caveat', cursive;
     margin: 1em; 
-    font-size: 1em;
+    float: left;
+    font-size: 2em;
+    animation: apparition 2s ease-out;
 }
 a{
     color: white;
 }
 button:hover
-    {
+{
         color: darkslateblue;
         background-color: black;
         border: 2px solid blue;
+}
+ @keyframes apparition{
+        from{
+            opacity: 0;
+            transform: translateX(-100px);
+    
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
     }
