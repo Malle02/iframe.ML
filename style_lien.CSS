@@ -22,10 +22,17 @@ button{
     margin: 8px; 
     font-size: 1.2em;
     animation: apparition 2s ease-out;
+
     
 }
+    
+
+i{
+    float: left;
+    margin-right: 20px;
+}
 a{
-    color: red;
+    color: darkred;
 }
 button:hover
     {

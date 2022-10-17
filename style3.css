@@ -4,6 +4,9 @@
     justify-content: center;
     
 }
+/* .para{
+    margin-left: 100px;
+} */
 
 .dam2{
     display: flex;
@@ -26,18 +29,24 @@
     text-align: center;
     text-decoration-color: aliceblue;
 }
-
-.bloc{
-    margin: 10px;
+.bloc3{
+    margin-top: 10px;
     border: white 1px solid;
-    width: 3700px;
+    width: 4000px;
     height: 360px;
-    margin: 10px;
+    
+}
+.bloc{
+    margin-top: 10px;
+    border: white 1px solid;
+    width: 300px;
+    height: 360px;
+   
 
     
 }
 .bloc1{
-    margin: 10px;
+    margin-top: 10px;
     border:white 1px solid;
     width: 4000px;
     height: 360px;
@@ -64,8 +73,8 @@
 
 
 .d1{
-    width: 480px;
-    height: 290px;
+    width: 300px;
+    height: 360px;
     
 }
 
