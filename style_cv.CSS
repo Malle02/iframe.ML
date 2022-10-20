@@ -12,14 +12,13 @@ body{
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 4px 6px 10px 10PX blue;
+    box-shadow: inset 0px 0px 10px 10px blue;
 }
 
 .M1{
     border: 1px solid blue;
     margin: 15px;
     border-radius: 5px;
-    
 }
 
 
@@ -46,16 +45,19 @@ h1{
 .M1 p{
     margin-left: 10px;
     margin-bottom: 10px;
+    
 }
 .d2{
     margin-top: 20px;
     margin-left: 10px;
     display: grid;
-    grid-template-columns: repeat(1, 200px) repeat(1, 300px);
+    grid-template-columns: repeat(1, 200px) repeat(1, 200px);
     grid-template-rows: repeat(auto, 400px);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
     border: 1px solid white;
+    font-size: 1em;
+    text-justify: auto;
 }
 
 .d2:last-child{
