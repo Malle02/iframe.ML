@@ -60,3 +60,35 @@ h1{
 .d2:last-child{
     margin-bottom: 20px;
 }
+button{
+    width: 250px;
+    height:10% ;
+    border: 2px solid white;
+    background-color: darkorange;
+    border-radius: 26px;
+    padding: 15px 32px;
+    float: left;
+    margin-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 1em; 
+    font-size: 1em;
+    animation: apparition 2s ease-out;
+    
+}
+
+button:hover {
+        color: darkorange;
+        background-color: black;
+        border: 2px solid blue;
+}
+ @keyframes apparition{
+        from{
+            opacity: 0;
+            transform: translateX(-100px);
+    
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
