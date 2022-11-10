@@ -1,0 +1,31 @@
+body{
+    background-color:#CCEEFF;
+}
+P{
+    margin-top: 2px;
+}
+
+
+ul li{
+    width: 200px;
+    height: 50px;
+    border: 3px solid darkgray;
+    background-color: skyblue;
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: black;
+    
+    list-style: none;
+    line-height: 40px;
+    padding-left: 10px;
+    transition: 0.2s ease-in;
+}
+
+
+ul li:hover{
+    background-color: rgba(31, 17, 137, 0.553);
+    color: rgb(195, 207, 23);
+    width: 50%;
+    border: solid 2px floralwhite;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
