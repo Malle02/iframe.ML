@@ -136,7 +136,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(AcU9.gif);
+    background-image: url(RXi9.gif);
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +157,7 @@ main > div{
     z-index: 10;
 }
 main div h1{
-    
+    text-align: center;
     margin: 0 auto;
     z-index: 10;
     color: rgb(19, 241, 93);
@@ -172,10 +173,10 @@ main div h1{
     color: #fff;
 }
 
-/* 
-@keyframes anima {
+
+/* @keyframes anima {
     
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  /* 0%, 18%, 22%, 25%, 53%, 57%, 100% {
 
       text-shadow:
       0 0 4px rgb(67, 238, 15),
@@ -185,11 +186,12 @@ main div h1{
     
   
   } */
+
   
-  15%, 35%, 65% {        
-      text-shadow: none;
+  /* 15%, 35%, 65% {         */
+ /* text-shadow: none;
   }    
-}
+} */
 
 
 @media screen and ( max-width: 680px){
@@ -217,5 +219,9 @@ main div h1{
     main{
         background-position: right;
     }
+}
+i{
+    color:blue;
+    size: 2rem;
 }
 
