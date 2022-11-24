@@ -1,0 +1,42 @@
+
+body{
+    background-color: cornflowerblue;
+}
+
+button{
+    width: 250px;
+    height:8% ;
+    border: 2px solid white;
+    background-color: rgba(191, 223, 145, 0.647);
+    border-radius: 26px;
+    padding: 15px 32px;
+    float: left;
+    margin-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 1em; 
+    font-size: 1.2em;
+    animation: apparition 2s ease-out;
+}
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+button:hover
+    {
+        color: darkturquoise;
+        background-color: black;
+        border: 2px solid blue;
+        transform: rotate(-2deg);
+        /* opacity: 0;
+     transform: translateX(-100px);
+        opacity: 1;
+        transform: translateY(0px); */
+        
+    }
