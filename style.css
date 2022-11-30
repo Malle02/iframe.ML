@@ -78,6 +78,7 @@ a{
         left: -100%;
         top: 10%;
         gap: 15px;
+        width: 100%
 
         /* pour l'affichage du menu         */
 
@@ -258,7 +259,7 @@ html {
     scroll-behavior: smooth;
   }
 
- @media screen and ( max-width: 10000vw){
+ @media screen and ( max-width: 1000vw){
     /* .menu-mobile{
         display: block;
         color: #fff;
