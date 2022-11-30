@@ -60,7 +60,7 @@ a{
 
 
 }
-@media  (max-width:1000vw){
+@media  (max-width:10000vw){
     .hamburger{
         display: block;    
     } 
