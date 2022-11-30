@@ -256,13 +256,13 @@ main div h1{
 }
 
 
- @media screen and ( max-width: 1000vw){
+ @media screen and ( max-width: 630vw){
     .menu-mobile{
         display: block;
         color: #fff;
         background-color: rgba(29, 197, 151, 0.97);
         text-align: center;
-        padding: 10px 0;
+        padding: 12px 0;
     }
     nav ul {
         display: none;
@@ -272,7 +272,7 @@ main div h1{
         text-align: center;
     }
     nav ul li a, nav ul li:hover a{
-        padding: 10px 10px 10px 10px;
+        padding: 0px 10px 10px 10px;
     
        
     }
