@@ -262,7 +262,7 @@ main div h1{
         color: #fff;
         background-color: rgba(29, 197, 151, 0.97);
         text-align: center;
-        padding:12px 12px 12px 0px;
+        padding:12px 12px 12px 12px;
     }
     nav ul {
         display: none;
@@ -272,7 +272,7 @@ main div h1{
         text-align: center;
     }
     nav ul li a, nav ul li:hover a{
-        padding: 12px 12px 12px 0px;
+        padding: 12px 12px 12px 12px;
     
        
     }
