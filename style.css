@@ -258,14 +258,14 @@ html {
     scroll-behavior: smooth;
   }
 
- @media screen and ( max-width: 1000vh){
-    .menu-mobile{
+ @media screen and ( max-width: 10000vh){
+    /* .menu-mobile{
         display: block;
         color: #fff;
         background-color: rgba(29, 197, 151, 0.97);
         text-align: center;
         padding:12px 12px 12px 12px;
-    }
+    } */
     nav ul {
         display: none;
     }
