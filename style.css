@@ -178,6 +178,10 @@ nav li:hover .submenu{
     height: 80%; 
    
 }
+.menu-contact .nav-item{
+    background-color: rgb(223, 168, 38);
+
+}
 
 .menu-html .submenu{
     background-color: rgb(223, 168, 38);
@@ -208,6 +212,10 @@ nav li:hover .submenu{
 .menu-mission .submenu li:hover{
     background-color: rgb(220, 0, 55);
 }
+.menu-contact .nav-item{
+    background-color: rgb(220, 0, 55);
+}
+
 .menu-mobile{
     display: none;
 }
