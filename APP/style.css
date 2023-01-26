@@ -1,0 +1,297 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Distressed&family=Russo+One&display=swap');
+
+body{
+    background-color: lavender;
+    
+    font-family: 'Anton', sans-serif;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Russo One', sans-serif;
+    
+}
+
+.d1{
+    border: 4px solid blue;
+    width:98%;
+    top:7%;
+    height: 568px;
+    position: fixed;
+    left: 1%;
+    background-image: url(./image/11.jpg);
+
+}
+
+
+header{
+    border: 4px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    padding-left: 15px;
+    background-color: thistle;
+    
+}
+footer{
+    border: 4px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    padding-left: 15px;
+    margin-top: 9%;
+    background-color:rgba(118, 74, 212, 0.765);
+    top: 17rem;
+    
+      
+}
+img{
+    margin-top: 2%;
+   position: absolute;
+   right: 20px;
+    width: 100px;
+    height: 100px;
+    margin-left: 92%;
+    
+    
+
+}
+p{
+    color: red;
+}
+iframe{
+    margin: 2%;
+    width: 65%;
+    height: 91%;
+    top: -4%;
+    position: absolute;
+    left: 20px;
+    border: 2px solid black;
+    background-color: azure;
+}
+ 
+
+.Bloc1{
+    margin-top: 13.5px;
+    border: 4px solid red;
+    position: relative;
+    width: 75%;    
+    left: 26%;
+    top: 13%;
+    height: 30%;
+    background-image: url(./image/7CJk.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+     
+}
+.Bloc2{
+    border: 4px solid rgb(128, 128, 128);
+    width: 20%;
+    text-align: center;
+    margin: 2%;
+    top: 13%;
+    height: 271.5px;
+    position: fixed;
+    background-image: url(./image/ddd.jpg);
+    background-repeat: no-repeat;
+    background-size: 122%;
+      
+    
+} 
+
+/* PARTIES BOUTON */
+
+ button{
+    position: absolute;
+    left: -5px; 
+    align-items: center;
+    margin-left: 10%;
+    width: 150px;
+    height:8% ;
+    border: 2px solid white;
+    background-color: #d19275;
+    border-radius: 26px; 
+    animation: apparition 2s ease-out;
+}
+
+button:hover {
+    color: darkorange;
+    background-color: grey;
+    border: 2px solid blue;
+}
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+} 
+
+ /*rendre la page respensive  */
+
+ @media only screen and (max-width:30000vh){ */
+    .d1{
+        
+        width: 96%;
+        height: 568px;
+        position: fixed;
+        left: 1%;
+    
+        
+    
+    }
+     header{
+        width: auto;
+    }
+     .Bloc1{
+        position: relative;
+        width: 70%;
+       
+        right: 22%;
+        top: auto;
+        
+        height: 271.5px;
+        position:fixed;
+    }
+     .Bloc2{
+        width: 20%;
+        right: 0%;
+        left: 0%; 
+        position: relative;
+       top: auto;
+        height: 271.5px;
+        position: fixed;
+
+       
+    } 
+     div#Menu li a{
+        position: relative;
+        width: auto;
+        right: 0%;
+        
+       
+        
+    } 
+     button{
+        position:relative ;
+        width: 90px;
+        height:8% ;
+        right: 2px;
+        align-items: center;
+        margin-left: 10%;
+        
+    }
+    img{
+        position: absolute;
+        right: 20px;
+         width: 100px;
+         height: 100px;
+         margin-left: 92%;
+         
+    }
+     
+    footer{
+        width: auto;
+        margin-top: 9%;
+        height: auto;
+        
+      background-position: right;
+
+    }
+} 
+
+div#Menu ul{
+    padding: 0;
+    width: 100px;
+    
+    margin: 0px;
+    margin-bottom: 4%;
+}
+div#Menu ul li{
+    position: relative;
+    list-style: none;
+}
+
+div#Menu ul ul{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+div#Menu li a {
+    text-decoration: none;
+    
+}
+
+div#Menu ul ul{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+    
+}
+div#Menu ul.N1 li.Smenu:hover ul.N2,
+div#Menu ul.N2 li.Smenu:hover ul.N3{
+    display: block;
+    font-size: 12px;
+}
+
+div#Menu a{
+    color: #fefffe00;
+    
+}
+div#Menu li:hover{
+    background: dodgerblue
+}
+
+div#Menu li.Smenu:hover{
+    background-color:dodgerblue;
+}
+
+div#Menu li a {
+    color:  rgb(7, 242, 238);
+    text-decoration: none;
+    padding: 4px 0 3px 8px;
+    display: flex;
+    border-left: 8px solid rgb(187, 187, 187);
+    margin: 2%; 
+   
+    
+   /* le grand carré  */
+    
+ }
+div#Menu li a:hover{
+    border-left-color: rgb(244, 63, 8);
+    color: white;
+}
+div#Menu ul ul li a:hover{
+    border-left-color: #00FF00;
+    color: white;
+}
+div#Menu ul ul ul li a:hover{
+    border-left-color: #004cff52;
+    color: white;
+} 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
