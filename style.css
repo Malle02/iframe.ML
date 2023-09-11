@@ -18,6 +18,9 @@ a{
     
 
 } 
+.trdams{
+    visibility:hidden;
+}
 .navbar{
     min-height: 70px;
     display: flex;
